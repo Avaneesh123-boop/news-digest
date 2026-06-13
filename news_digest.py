@@ -127,13 +127,4 @@ def news_job():
         print("Error:", e)
 
 
-# =====================================
-# SCHEDULE DAILY AT 07:00 AM
-# =====================================
-schedule.every().day.at("07:00").do(news_job)
-
-print("Scheduler started...")
-
-while True:
-    schedule.run_pending()
-    time.sleep(30)
+news_job()
