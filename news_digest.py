@@ -1,4 +1,3 @@
-```python
 import feedparser
 import smtplib
 import schedule
@@ -138,4 +137,3 @@ print("Scheduler started...")
 while True:
     schedule.run_pending()
     time.sleep(30)
-```
