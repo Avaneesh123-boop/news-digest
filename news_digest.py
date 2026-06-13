@@ -10,9 +10,9 @@ from datetime import datetime
 # =========================
 # EMAIL CONFIGURATION
 # =========================
-SENDER_EMAIL = "avspancheri@gmail.com"
-APP_PASSWORD = "Ava@123"
-RECIPIENT_EMAIL = "avpancheri@gmail.com"
+SENDER_EMAIL = "avpancheri@gmail.com"
+APP_PASSWORD = "apple.123"
+RECIPIENT_EMAIL = "avspancheri@gmail.com"
 
 # =========================
 # RSS FEEDS
